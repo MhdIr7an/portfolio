@@ -1,11 +1,11 @@
-<img title="developer.png" width="1050" height="550" src="https://cdn.dribbble.com/users/946283/screenshots/2871335/media/e849158053f882a118f9178d6be50533.png">
-<h1 align="center">Hi 👋, I'm Mohamed Irfan Shafi</h1>
+<img src="https://github.com/MhdIr7an/MhdIr7an/assets/93046265/732a45d3-2040-4a19-8c59-850b2a93e163" width="1050">
+
 <p align="center">An interest in technology and digital world lead me here.</p>
 <p align="center">Working to know more about the web.</p>
 
 <img align="right" alt="Developer Animated Icon" width="250" height="200" data-id="4188877" data-animated-url="https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif" skip_resize="true" srcset="https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 320w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 400w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 450w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 640w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 700w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 800w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 768w" sizes="(max-width: 919px) 100vw, max(768px, 98vh)" src="https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif">
 
-- 🧑‍💻 I’m currently learning *Nextjs, supabase*
+- 🧑‍💻 Currently learning *Nextjs, supabase*
 
 - 📫 How to reach me *mhdirfanshafi@gmail.com*
 
