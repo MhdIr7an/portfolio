@@ -1,6 +1,6 @@
 <img src="https://github.com/MhdIr7an/MhdIr7an/assets/93046265/732a45d3-2040-4a19-8c59-850b2a93e163" width="1050">
 
-<p align="center">An interest in technology and digital world lead me here.</p>
+<p align="center">An interest in technology and digital world led me here.</p>
 <p align="center">Working to know more about the web.</p>
 
 <img align="right" alt="Developer Animated Icon" width="250" height="200" src="https://github.com/MhdIr7an/MhdIr7an/assets/93046265/384c83b1-ad3e-457d-a2de-03b837fde57b" />
