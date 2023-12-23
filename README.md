@@ -1,11 +1,14 @@
 <h1 align="center">Hi 👋, I'm Mohamed Irfan Shafi</h1>
-<h3 align="center">A passionate fullstack developer from India</h3>
+<h3 align="center">I have completed my MCA and is looking forward for a developer role that would allow me to explore more in the digital world.</h3>
 
 - 📫 How to reach me *mhdirfanshafi@gmail.com*
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/mohamed-irfan-shafi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mohamed-irfan-shafi" height="30" width="40" /></a>
+</p>
+<p align="left">
+<a href="https://www.instagram.com/mhd.ir7an?igshid=OGQ5ZDc2ODk2ZA==" target="blank"></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
