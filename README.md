@@ -1,9 +1,18 @@
 <h1 align="center">Hi 👋, I'm Mohamed Irfan Shafi</h1>
-<h3 align="center">I have completed my MCA and is looking forward for a developer role that would allow me to explore more in the digital world.</h3>
+<h3 align="center">Followed my interest in technology and digital world to here.</h3>
+<h5 align="center">Working to know more about the web as of now.</h5>
 
-- 🌱 I’m currently learning *Nextjs, supabase*
+<img align="right" alt="Developer Animated Icon" width="250" height="200" data-id="4188877" data-animated-url="https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif" skip_resize="true" srcset="https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 320w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 400w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 450w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 640w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 700w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 800w, https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif 768w" sizes="(max-width: 919px) 100vw, max(768px, 98vh)" src="https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif">
+
+- 🧑‍💻 I’m currently learning *Nextjs, supabase*
 
 - 📫 How to reach me *mhdirfanshafi@gmail.com*
+
+  <h3 align="left">Projects</h3>
+- <p align="left"><a href="https://github.com/MhdIr7an/Basic-ERP.git">💹 ERP</a></p>
+- <p align="left">A web app that has basic functionalities of an ERP as to work with sales and purchases.</p>
+- <p align="left"><a href="https://github.com/MhdIr7an/Community-Based-Nature-Conservation.git">🌱 Community Based Nature Conservation</a></p>
+- <p align="left">A web app focused on creating awareness and a community that work towards the welfare of the nature.</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
