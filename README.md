@@ -10,7 +10,7 @@
 - 📫 How to reach me *mhdirfanshafi@gmail.com*
 
   <h3 align="left">Projects</h3>
-- <p align="left"><a href="https://github.com/MhdIr7an/Basic-ERP.git">💹 ERP</a></p>
+- <p align="left"><a href="https://github.com/MhdIr7an/ERP.git">💹 ERP</a></p>
     <p align="left">A web app that has basic functionalities of an ERP as to work with sales and purchases.</p>
 - <p align="left"><a href="https://github.com/MhdIr7an/Community-Based-Nature-Conservation.git">🌱 Community Based Nature Conservation</a></p>
     <p align="left">A web app focused on creating awareness and a community that work towards the welfare of the nature.</p>
