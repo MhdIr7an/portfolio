@@ -11,7 +11,7 @@
 
   <h3 align="left">Projects</h3>
 - <p align="left"><a href="https://github.com/MhdIr7an/ERP.git">💹 ERP</a></p>
-    <p align="left">A web app that has basic functionalities of an ERP as to work with sales and purchases.</p>
+    <p align="left">A web based ERP software that has the functionalities to deal with Sales, Purchases, orders and returns. It also includes the functionalities to genereate pdf invoices for them.</p>
 - <p align="left"><a href="https://github.com/MhdIr7an/Community-Based-Nature-Conservation.git">🌱 Community Based Nature Conservation</a></p>
     <p align="left">A web app focused on creating awareness and a community that work towards the welfare of the nature.</p>
 
