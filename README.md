@@ -10,7 +10,7 @@
   <h3 align="left">Projects</h3>
 - <p align="left"><a href="https://github.com/MhdIr7an/ERP.git">💹 ERP</a></p>
     <p align="left">A web based ERP solution designed for businesses seeking seamless management of their operations. The project includes invoice generation, report generation in pdf format. Manage Accounts, Product, Customers, Sales and much more with this application.</p>
-- <p align="left"><a href="https://github.com/MhdIr7an/Community-Based-Nature-Conservation.git">🌱 Community Based Nature Conservation</a></p>
+- <p align="left"><a href="https://github.com/MhdIr7an/CBNC.git">🌱 Community Based Nature Conservation</a></p>
     <p align="left">A web app focused on creating awareness and a community that work towards the welfare of the nature.</p>
 
 <h3 align="left">Connect with me:</h3>
