@@ -1,0 +1,155 @@
+.cube-container {
+    perspective: 800px;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+
+    transform: translate(1400px, -600px);
+    opacity: 0;
+    animation: cube_starting 2s 1s linear both;
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg);
+    animation: spin 5s linear infinite;
+    
+    &:hover, &.hovered {
+        animation: none;
+        scale: 0.2;
+        transform: translateY(200px);
+    }
+    
+    .face {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: black;
+        // border: 0.5rem solid rgb(70, 170, 190);
+        
+        &.front {
+            transform: translateZ(100px);
+        }
+        
+        &.back {
+            transform: rotateY(180deg) translateZ(100px);
+        }
+        
+        &.left {
+            transform: rotateY(-90deg) translateZ(100px);
+        }
+        
+        &.right {
+            transform: rotateY(90deg) translateZ(100px);
+        }
+        
+        &.top {
+            transform: rotateX(90deg) translateZ(100px);
+        }
+        
+        &.bottom {
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+    }
+}
+
+.cube-dropdown {
+    width: 35rem;
+    height: auto;
+    transform: translate(1310px, -430px);
+    display: none;
+    z-index: 50;
+
+    &.hovered {
+        display: block;
+    }
+
+    .dropdown-content {
+        width: 100%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.658);
+        border-radius: 1rem;
+        position: relative;
+        top: 50px;
+        padding: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        
+        .profile-pic {
+            background-color: whitesmoke;
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            overflow: hidden;
+
+            img {
+                scale: 2.5;
+                max-width: 100%;
+                height: auto;
+                margin-left: -3.5rem;
+                margin-top: -0.5rem;
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+
+            a svg:hover {
+                scale: 1.1;
+            }
+        }
+
+        button {
+            margin-top: 2rem;
+            width: 25rem;
+            height: 3rem;
+
+            border-radius: 1rem;
+            background-color: rgba(13,13,87,1);
+            color: whitesmoke;
+            font-weight: bold;
+
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 2px 2px 5px rgba(13,13,87,1);
+                text-shadow: 1px 1px 10px;
+            }
+        }
+    }
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    to {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@keyframes cube_starting {
+    from {
+        opacity: 0;
+        transform: translate(1400px, -600px);
+    } to {
+        opacity: 1;
+        transform: translate(900px, -250px);
+    }
+}

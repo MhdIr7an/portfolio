@@ -1,0 +1,109 @@
+.projects {
+    font-weight: 600;
+    
+    main {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20rem;
+        
+        article {
+            width: 40%;
+            
+            
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                
+                li {
+                    list-style-type: none;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: azure;
+
+                h2:hover {
+                    text-shadow: 1px 1px 5px;
+                }
+            }
+        }
+        
+        &:nth-child(odd) {
+            article > ul, article > a > h2 {
+                transform: translateX(-1000px);
+                animation: project_slide 2s 2s ease-in-out both;
+            }
+        }
+        
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+            transform: translateX(1000px);
+            justify-content: flex-end;
+            gap: 50px;
+            
+            article > ul, article > a > h2 {
+                transform: translateX(1000px);
+                animation: project_slide_reverse 2s 2s ease-in-out both;
+            }
+        }
+    }
+
+    @keyframes project_slide {
+        from {
+            transform: translateX(-1000px);
+        } to {
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes project_slide_reverse {
+        from {
+            transform: translateX(1000px);
+        } to {
+            transform: translateX(0);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// .projects {
+//     font-weight: 600;
+    
+//     main {
+//         display: flex;
+//         justify-content: space-between;
+//         margin-bottom: 15rem;
+        
+//         article {
+//             width: 40%;
+            
+            
+//             ul {
+//                 display: flex;
+//                 flex-direction: column;
+//                 gap: 10px;
+                
+//                 li {
+//                     list-style-type: none;
+//                 }
+//             }
+//             animation: project_slide 2s ease-in-out normal;
+//         }
+//     }
+
+//     @keyframes project_slide {
+//         from {
+//             transform: translateX(-1000px);
+//         } to {
+//             transform: translateX(0);
+//         }
+//     }
+// }

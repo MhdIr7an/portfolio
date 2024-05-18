@@ -1,0 +1,26 @@
+.tech {
+    margin-top: 1rem;
+    opacity: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: tech_visible 1s 2.5s forwards;
+
+    a {
+        cursor: pointer;
+    }
+
+    svg:hover {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes tech_visible {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    } 
+}
