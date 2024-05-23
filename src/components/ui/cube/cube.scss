@@ -17,7 +17,7 @@
     transform: rotateX(0deg) rotateY(0deg);
     animation: spin 5s linear infinite;
     
-    &:hover, &.hovered {
+    &:hover, &.active {
         animation: none;
         scale: 0.2;
         transform: translateY(200px);
@@ -67,7 +67,7 @@
     display: none;
     z-index: 50;
 
-    &.hovered {
+    &.active {
         display: block;
     }
 
@@ -131,6 +131,83 @@
                 text-shadow: 1px 1px 10px;
             }
         }
+    }
+}
+
+.header_dropdown {
+    float: right;
+
+    .dropdown-content {
+        background-color: rgba(229, 232, 235, 0.596);
+        width: 95%;
+        height: auto;
+        z-index: 20;
+        
+        position: absolute;
+        right: 0.5rem;
+        top: 3.5rem;
+        border-radius: 0.5rem;
+
+
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        &.active {
+            display: flex;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            overflow: hidden;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            margin-top: 1rem;
+            
+            
+            img {
+                width: 300px;
+                height: 400px;
+
+                transform: translate(-130px, -130px);
+            }
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+
+            a svg:hover {
+                scale: 1.1;
+            }
+        }
+
+        button {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            width: 20rem;
+            height: 3rem;
+
+            border-radius: 1rem;
+            background-color: rgba(13,13,87,1);
+            color: whitesmoke;
+            font-weight: bold;
+
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 2px 2px 5px rgba(13,13,87,1);
+                text-shadow: 1px 1px 10px;
+            }
+        }
+    }
+
+    @media (width > 800px) {
+        display: none;
     }
 }
 

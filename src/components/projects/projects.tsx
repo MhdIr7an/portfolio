@@ -41,8 +41,8 @@ const Projects = () => {
                 <div className="underline_s" />
             </div>
             <div className="projects">
-                <Project_section heading='ERP Software' descriptions={erp_desc} link='https://ledgerz-erp.onrender.com/' images={erp_images} />
-                <Project_section heading='Community Based Nature Conservation' descriptions={cbnc_desc} link='https://cbnc.onrender.com/' images={cnbc_images} />
+                <Project_section heading='ERP Software' descriptions={erp_desc} link='https://erp-one-lovat.vercel.app/' images={erp_images} />
+                <Project_section heading='Community Based Nature Conservation' descriptions={cbnc_desc} link='https://mhdirfan.pythonanywhere.com/' images={cnbc_images} />
             </div>
         </section>
     )

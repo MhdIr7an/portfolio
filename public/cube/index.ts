@@ -2,7 +2,8 @@ import Profile from './profile.svg'
 import Github from './github.svg'
 import Gmail from './gmail.svg'
 import WhatsApp from './whatsapp.svg'
-import Instagram from './instagram.svg'
+import InstagramLg from './instagramLg.svg'
+import InstagramSm from './instagramSm.svg'
 import LinkedIn from './linkedIn.svg'
 
 export {
@@ -10,6 +11,7 @@ export {
     Github,
     Gmail,
     WhatsApp,
-    Instagram,
+    InstagramLg,
+    InstagramSm,
     LinkedIn
 }

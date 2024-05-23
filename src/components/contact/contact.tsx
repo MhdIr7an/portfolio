@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './contact.scss'
-import { LinkedIn, Github, Gmail, Instagram, WhatsApp } from '../../../public/cube'
+import { LinkedIn, Github, Gmail, InstagramLg, InstagramSm, WhatsApp } from '../../../public/cube'
 import Link from 'next/link'
 
 const Contact = () => {
@@ -13,7 +13,8 @@ const Contact = () => {
             <Link href="https://github.com/MhdIr7an"><Github /></Link>
             <Link href="mailto:mhdirfanshafi@gmail.com"><Gmail /></Link>
             <Link href="https://wa.me/+971501779114"><WhatsApp /></Link>
-            <Link href="https://www.instagram.com/mhd.ir7an?igshid=OGQ5ZDc2ODk2ZA=="><Instagram /></Link>
+            <Link className='instagram-lg' href="https://www.instagram.com/mhd.ir7an?igshid=OGQ5ZDc2ODk2ZA=="><InstagramLg /></Link>
+            <Link className='instagram-sm' href="https://www.instagram.com/mhd.ir7an?igshid=OGQ5ZDc2ODk2ZA=="><InstagramSm /></Link>
             <Link href="https://linkedin.com/in/mohamed-irfan-shafi"><LinkedIn /></Link>
         </nav>
         <p>

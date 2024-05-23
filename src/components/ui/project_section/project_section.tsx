@@ -18,7 +18,7 @@ type Props = {
 
 const Project_section = ({heading, descriptions, link, images}: Props) => {
   return (
-    <main>
+    <article className='project_section'>
         <article>
             <Link href={link}><h2>{heading}</h2></Link>
             <ul>    
@@ -26,7 +26,7 @@ const Project_section = ({heading, descriptions, link, images}: Props) => {
             </ul>
         </article>
         <ProjectCarousel images={images} />
-    </main>
+    </article>
   )
 }
 

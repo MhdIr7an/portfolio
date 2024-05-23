@@ -1,40 +1,37 @@
 'use client'
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './cube.scss'
 
-import { LinkedIn, Github, Gmail, Instagram, Profile, WhatsApp } from '../../../../public/cube'
+import { LinkedIn, Github, Gmail, InstagramLg, Profile, WhatsApp, InstagramSm } from '../../../../public/cube'
 import ProfilePic from '../../../../public/profile.png'
-// import resume from '../../../../public/resume.pdf'
+import DropDown from '../../../../public/dropdown.svg'
 import Image from 'next/image';
 import Link from 'next/link';
 
 const AnimatedCube = () => {
-  const [display, setDisplay] = useState(false);
   const [isDropdown, setIsDropdown] = useState(false);
+  const [isHeaderDropdown, setIsHeaderDropdown] = useState(false);
 
-  useEffect(() => {
-    if (window && window.innerWidth > 800) {
-      setDisplay(true);
-    }
-  }, [])
+  const header_dropdown = () => {
+    setIsHeaderDropdown(!isHeaderDropdown);
+  }
 
   return (
     <>
     <aside className='cube-container'>
-    {display &&
-      <div className={`cube ${isDropdown ? 'hovered' : ''}`}
+      <div className={`cube ${isDropdown ? 'active' : ''}`}
       onMouseEnter={() => setIsDropdown(true)}
       onMouseLeave={() => setIsDropdown(false)}>
         <div className="face front"><Profile /></div>
         <div className="face back"><WhatsApp /></div>
         <div className="face left"><Gmail /></div>
-        <div className="face right"><Instagram /></div>
+        <div className="face right"><InstagramLg /></div>
         <div className="face top"><Github /></div>
         <div className="face bottom"><LinkedIn /></div>
-      </div>}
+      </div>
     </aside>
-    <aside className={`cube-dropdown ${isDropdown ? 'hovered' : ''}`}
+    <aside className={`cube-dropdown ${isDropdown ? 'active' : ''}`}
     onMouseEnter={() => setIsDropdown(true)}
     onMouseLeave={() => setIsDropdown(false)}>
       <div className='dropdown-content'>
@@ -45,7 +42,23 @@ const AnimatedCube = () => {
             <Link href="https://github.com/MhdIr7an"><Github /></Link>
             <Link href="mailto:mhdirfanshafi@gmail.com"><Gmail /></Link>
             <Link href="https://wa.me/+971501779114"><WhatsApp /></Link>
-            <Link href="https://www.instagram.com/mhd.ir7an?igshid=OGQ5ZDc2ODk2ZA=="><Instagram /></Link>
+            <Link href="https://www.instagram.com/mhd.ir7an?igshid=OGQ5ZDc2ODk2ZA=="><InstagramLg /></Link>
+            <Link href="https://linkedin.com/in/mohamed-irfan-shafi"><LinkedIn /></Link>
+        </nav>
+        <Link href="/resume.pdf"><button>RESUME</button></Link>
+      </div>
+    </aside>
+    <aside className='header_dropdown'>
+      <div onClick={header_dropdown}><DropDown /></div>
+      <div className={`dropdown-content ${isHeaderDropdown? 'active': ''}`}>
+        <div className='profile-pic'>
+          <Image src={ProfilePic} alt="profile" />
+        </div>
+        <nav className='contact'>
+            <Link href="https://github.com/MhdIr7an"><Github /></Link>
+            <Link href="mailto:mhdirfanshafi@gmail.com"><Gmail /></Link>
+            <Link href="https://wa.me/+971501779114"><WhatsApp /></Link>
+            <Link className='instagram-sm' href="https://www.instagram.com/mhd.ir7an?igshid=OGQ5ZDc2ODk2ZA=="><InstagramSm /></Link>
             <Link href="https://linkedin.com/in/mohamed-irfan-shafi"><LinkedIn /></Link>
         </nav>
         <Link href="/resume.pdf"><button>RESUME</button></Link>
