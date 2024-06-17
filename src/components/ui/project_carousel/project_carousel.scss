@@ -1,9 +1,8 @@
 .carousel {
   position: relative;
-  opacity: 0;
   animation: start_carousel 2s 3s linear both;
 
-  @media (500px < width < 800px) {
+  @media (500px < width < 1080px) {
     margin-bottom: 10rem;
   }
 
@@ -34,7 +33,7 @@
       margin-left: 1.5rem;
     }
     
-    @media (width > 800px) {
+    @media (width > 1080px) {
       width: 50rem;
       height: 25rem;
       margin-left: -57rem;
@@ -119,7 +118,7 @@
     }
   }
 
-  @media (width > 800px) {
+  @media (width > 1080px) {
     @keyframes project_carousel {
       0% {
         transform: translate(-180px, 30px) scale(0.8);

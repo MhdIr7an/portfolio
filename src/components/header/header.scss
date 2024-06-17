@@ -16,12 +16,15 @@ header {
 
     ul {
         display: flex;
+        justify-content: center;
+        align-items: center;
+
         text-decoration: none;
         list-style: none;
         gap: 5rem;
 
-        position: relative;
-        left: 36%;
+        // position: relative;
+        // left: 36%;
     
         li {
             cursor: pointer;
@@ -43,7 +46,7 @@ header {
     }
 
     .cube-container {
-        @media (width < 800px) {
+        @media (width < 1080px) {
             display: none;
         }
     }

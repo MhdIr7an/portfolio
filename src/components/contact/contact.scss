@@ -41,18 +41,19 @@ footer {
         }
 
         opacity: 0;
+
         animation: footer_load 2s 3s normal both;
 
         .instagram-lg {
             display: block;
-            @media (width < 800px) {
+            @media (width < 1080px) {
                 display: none;
             }
         }
 
         .instagram-sm {
             display: block;
-            @media (width > 800px) {
+            @media (width > 1080px) {
                 display: none;
             }
         }

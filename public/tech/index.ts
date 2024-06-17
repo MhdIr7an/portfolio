@@ -10,6 +10,7 @@ import ReactIcon from './react.svg'
 import ScssIcon from './scss.svg'
 import TailwindIcon from './tailwind.svg'
 import TypescriptIcon from './typescript.svg'
+import DotNetIcon from './dotnet-core.svg'
 
 export {
     DjangoIcon,
@@ -24,4 +25,5 @@ export {
     ScssIcon,
     TailwindIcon,
     TypescriptIcon,
+    DotNetIcon
 }
