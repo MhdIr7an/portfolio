@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 import './tech.scss'
-import { DjangoIcon, DockerIcon, GitIcon, NextIcon, NodeIcon, OdooIcon, PostgresIcon, PythonIcon, ReactIcon, ScssIcon, TailwindIcon, TypescriptIcon, DotNetIcon } from '../../../public/tech'
+import { DjangoIcon, DockerIcon, NextIcon, PostgresIcon, ReactIcon, ScssIcon, TailwindIcon, TypescriptIcon, DotNetIcon, FigmaIcon, ExpoIcon, GitIcon } from '../../../public/tech'
 
 const Tech = () => {
   return (
@@ -19,17 +19,17 @@ const Tech = () => {
         </span>
         <span>
           <Link className='dotnet-icon' href='https://dotnet.microsoft.com/en-us/'><DotNetIcon /></Link>
-          <Link className='odoo-icon' href='https://www.odoo.com'><OdooIcon /></Link>
-          <Link className='sass-icon' href='https://sass-lang.com/'><ScssIcon /></Link>
+          <Link href='https://www.figma.com/'><FigmaIcon /></Link>
+          <Link href='https://expo.dev/'><ExpoIcon /></Link>
         </span>
         <span>
+          <Link className='sass-icon' href='https://sass-lang.com/'><ScssIcon /></Link>
           <Link className='tailwind-icon' href='https://tailwindcss.com/'><TailwindIcon /></Link>
           <Link className='postgres-icon' href='https://www.postgresql.org/'><PostgresIcon /></Link>
-          <Link className='git-icon' href='https://www.git-scm.com/'><GitIcon /></Link>
         </span>
         <span>
+          <Link className='git-icon' href='https://git-scm.com/'><GitIcon /></Link>
           <Link className='docker-icon' href='https://www.docker.com/'><DockerIcon /></Link>
-          <Link className='py-icon' href='https://www.python.org/'><PythonIcon /></Link>
           <Link className='ts-icon' href='https://www.typescriptlang.org/'><TypescriptIcon /></Link>
         </span>
       </div>

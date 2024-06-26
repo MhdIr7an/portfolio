@@ -1,6 +1,6 @@
 'use client'
 
-import { Suspense, useState } from 'react';
+import { useState } from 'react';
 import './cube.scss'
 
 import { LinkedIn, Github, Gmail, InstagramLg, Profile, WhatsApp, InstagramSm } from '../../../../public/cube'
@@ -8,7 +8,6 @@ import ProfilePic from '../../../../public/profile.png'
 import DropDown from '../../../../public/dropdown.svg'
 import Image from 'next/image';
 import Link from 'next/link';
-import Loader from '@/components/loader';
 
 const AnimatedCube = () => {
   const [isDropdown, setIsDropdown] = useState(false);
@@ -37,9 +36,7 @@ const AnimatedCube = () => {
     onMouseLeave={() => setIsDropdown(false)}>
       <div className='dropdown-content'>
         <div className='profile-pic'>
-          <Suspense fallback={<Loader />}>
-            <Image src={ProfilePic} alt="profile" />
-          </Suspense>
+          <Image src={ProfilePic} alt="profile" loading='lazy' />
         </div>
         <nav className='contact'>
             <Link href="https://github.com/MhdIr7an"><Github /></Link>
@@ -55,9 +52,7 @@ const AnimatedCube = () => {
       <div onClick={header_dropdown}><DropDown /></div>
       <div className={`dropdown-content ${isHeaderDropdown? 'active': ''}`}>
         <div className='profile-pic'>
-          <Suspense fallback={<Loader />}>
-            <Image src={ProfilePic} alt="profile" />
-          </Suspense>
+          <Image src={ProfilePic} alt="profile" loading='lazy' />
         </div>
         <nav className='contact'>
             <Link href="https://github.com/MhdIr7an"><Github /></Link>

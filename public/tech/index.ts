@@ -1,29 +1,27 @@
-import DjangoIcon from './django.svg'
-import DockerIcon from './docker.svg'
-import GitIcon from './git.svg'
-import NextIcon from './next.svg'
-import NodeIcon from './node.svg'
-import OdooIcon from './odoo.svg'
-import PostgresIcon from './postgres.svg'
-import PythonIcon from './python.svg'
 import ReactIcon from './react.svg'
+import NextIcon from './next.svg'
+import DjangoIcon from './django.svg'
+import DotNetIcon from './dotnet-core.svg'
+import FigmaIcon from './figma.svg'
+import ExpoIcon from './expo.svg'
+import GitIcon from './git.svg'
 import ScssIcon from './scss.svg'
 import TailwindIcon from './tailwind.svg'
+import PostgresIcon from './postgres.svg'
+import DockerIcon from './docker.svg'
 import TypescriptIcon from './typescript.svg'
-import DotNetIcon from './dotnet-core.svg'
 
 export {
-    DjangoIcon,
-    DockerIcon,
-    GitIcon,
-    NextIcon,
-    NodeIcon,
-    OdooIcon,
-    PostgresIcon,
-    PythonIcon,
     ReactIcon,
+    NextIcon,
+    DjangoIcon,
+    DotNetIcon,
+    FigmaIcon,
+    ExpoIcon,
+    GitIcon,
     ScssIcon,
     TailwindIcon,
-    TypescriptIcon,
-    DotNetIcon
+    PostgresIcon,
+    DockerIcon,
+    TypescriptIcon
 }
