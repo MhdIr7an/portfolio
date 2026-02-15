@@ -1,4 +1,4 @@
-<img src="./banner.svg" width="1050"><br>
+<img src="./public/banner.svg" width="1050"><br>
 
 <h3 align="left">Connect with me:</h3>
 <a href="mailto:mhdirfanshafi@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/color/48/gmail-new.png" alt="mhdirfanshafi@gmail.com" height="40" width="40" /></a>
